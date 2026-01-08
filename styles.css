@@ -1,0 +1,171 @@
+/* ===================================
+   CSS PRACTICE - PRO LEVEL EDITION
+   =================================== */
+
+/* 15. Whole Page Vibe Check - Modern spacing and colors */
+body {
+    margin: 0;
+    padding: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 1. Main Character Energy - The h1 is THE STAR */
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #2d3748;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 30px 0;
+    transition: all 0.3s ease;
+}
+
+h1:hover {
+    color: #667eea;
+    text-shadow: 6px 6px 12px rgba(102, 126, 234, 0.4);
+    transform: scale(1.05);
+}
+
+/* 2. Subheading but Make It Aesthetic - Soft and dreamy */
+h3 {
+    color: #a78bfa !important;
+    letter-spacing: 3px;
+    opacity: 0.85;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+/* 3. Paragraph Glow-Up - First paragraph gets VIP treatment */
+.intro {
+    background-color: #fef3c7;
+    padding: 25px;
+    border-radius: 15px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* 4. "Important Info" but Dramatic - Second paragraph screams attention */
+#specialParagraph {
+    border: 5px solid #f59e0b;
+    background-color: #fef3c7;
+    padding: 20px;
+    transform: rotate(-1deg);
+    margin: 25px 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 5. HR but Make It Fancy - Not your boring line anymore */
+hr {
+    width: 50%;
+    height: 6px;
+    background-color: #667eea;
+    border: none;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+/* 6. Pre Tag = Hacker Mode - Matrix vibes */
+pre {
+    background-color: #1a202c;
+    color: #00ff41;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+/* 7. Unordered List = Pinterest Vibes - Clean and aesthetic */
+.techList {
+    list-style: none;
+    padding: 20px;
+    background-color: #e0e7ff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.techList li {
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.techList li::before {
+    content: "✨ ";
+    margin-right: 8px;
+}
+
+/* 8. Ordered List = Step-by-Step Boss - Power moves */
+#stepsList {
+    list-style-type: upper-roman;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px 0;
+    line-height: 2;
+}
+
+#stepsList li {
+    margin-left: 20px;
+}
+
+/* 9. Link = Don't Look Like a Link - Sneaky until hover */
+.externalLink {
+    color: #4a5568 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.externalLink:hover {
+    color: #667eea !important;
+    text-decoration: underline !important;
+}
+
+/* 10. Div = Card UI - Modern card design */
+div {
+    border: 2px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    background-color: white;
+}
+
+/* 11. Span = Accent Word - Make it POP */
+span {
+    color: #f59e0b;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* 12. Button = Click Me or Else - Irresistible button */
+button {
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: #667eea !important;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(102, 126, 234, 0.3);
+}
+
+/* 13. Button Hover Chaos - Transform on hover */
+button:hover {
+    background-color: #5a67d8 !important;
+    box-shadow: 0 8px 15px rgba(102, 126, 234, 0.5);
+    transform: scale(1.1);
+}
+
+/* 14. Footer but Low-Key - Exists but doesn't scream */
+footer {
+    font-size: 0.85rem !important;
+    color: #718096;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+}
