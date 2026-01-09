@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practice Page</title>
+
+    <!-- INTERNAL CSS (HTML + CSS IN ONE FILE) -->
+    <style>
+
+        /* Whole Page Vibe */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7fb;
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* Main Character Energy */
+        #mainHeading {
+            text-align: center;
+            font-size: 3rem;
+            color: #2c2c54;
+            text-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+            transition: color 0.3s ease;
+        }
+
+        #mainHeading:hover {
+            color: #ff6b81;
+        }
+
+        /* Aesthetic Subheading */
+        h3 {
+            color: #a29bfe;
+            letter-spacing: 3px;
+            opacity: 0.8;
+            text-align: center;
+        }
+
+        /* Paragraph Glow-Up */
+        .intro {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        /* Important & Dramatic Paragraph */
+        #specialParagraph {
+            background-color: #ffeaa7;
+            border: 4px solid #e17055;
+            padding: 20px;
+            transform: rotate(-1deg);
+            margin-bottom: 30px;
+        }
+
+        /* Fancy HR */
+        hr {
+            width: 120px;
+            height: 6px;
+            background-color: #6c5ce7;
+            border: none;
+            border-radius: 10px;
+            margin: 40px auto;
+        }
+
+        /* Hacker Mode Pre */
+        pre {
+            background-color: #0f172a;
+            color: #22ff88;
+            font-family: monospace;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Pinterest UL */
+        .techList {
+            list-style: none;
+            background-color: #f1f2f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .techList li {
+            margin-bottom: 10px;
+        }
+
+        /* Boss OL */
+        #stepsList {
+            list-style-type: upper-roman;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #stepsList li {
+            margin-bottom: 12px;
+        }
+
+        /* Sneaky Link */
+        .externalLink {
+            text-decoration: none;
+            color: #636e72;
+            transition: all 0.3s ease;
+        }
+
+        .externalLink:hover {
+            text-decoration: underline;
+            color: #0984e3;
+        }
+
+        /* Card UI */
+        div {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            margin: 30px 0;
+        }
+
+        /* Accent Word */
+        div span {
+            color: #e84393;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Button Styling */
+        #submitBtn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            background-color: #74b9ff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #submitBtn:hover {
+            background-color: #0984e3;
+            box-shadow: 0 10px 25px rgba(9,132,227,0.4);
+            transform: scale(1.08);
+        }
+
+        /* Footer Low-Key */
+        .pageFooter {
+            font-size: small;
+            color: #999;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 id="mainHeading">HTML Practice Page</h1>
+
+    <h3>Learning the Basics of HTML</h3>
+
+    <p class="intro">
+        <b>HTML</b> stands for <strong>HyperText Markup Language</strong>.
+        It is used to <i>create</i> and <em>structure</em> web pages.
+    </p>
+
+    <p id="specialParagraph">
+        HTML is a <mark>markup</mark> language.<br>
+        Water formula is H<sub>2</sub>O and 5<sup>2</sup> = 25.
+    </p>
+
+    <hr>
+
+    <pre>
+This text
+    keeps spaces
+        and line breaks
+exactly as written.
+    </pre>
+
+    <ul class="techList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <ol id="stepsList">
+        <li>Open editor</li>
+        <li>Write code</li>
+        <li>Save & run</li>
+    </ol>
+
+    <a href="https://www.google.com" target="_blank" class="externalLink">
+        Visit Google
+    </a>
+
+    <div>
+        This is a <span>styled</span> word inside a card.
+    </div>
+
+    <button id="submitBtn">Submit</button>
+
+    <footer class="pageFooter">
+        © 2026 HTML Practice Page
+    </footer>
+
+</body>
+</html>
